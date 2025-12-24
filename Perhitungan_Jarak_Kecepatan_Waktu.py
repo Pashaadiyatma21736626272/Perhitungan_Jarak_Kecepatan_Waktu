@@ -4,7 +4,7 @@ def Kecepatan():
 
   Kecepatan = Jarak / Waktu
   kecepatan = int(Kecepatan)
-  print(kecepatan)
+  print(f"Kecepatannya Adalah : {kecepatan}")
 
 def Jarak():
   Kecepatan = int(input("Masukkan Kecepatan :"))
@@ -12,7 +12,7 @@ def Jarak():
 
   Jarak = Kecepatan * Waktu
   jarak = int(Jarak)
-  print(jarak)
+  print(f"Jaraknya Adalah : {jarak}")
 
 def Waktu():
   Jarak = int(input("Masukkan Jarak :"))
@@ -20,7 +20,7 @@ def Waktu():
 
   Waktu = Jarak / Kecepatan
   waktu = int(Waktu)
-  print(waktu)
+  print(f"Waktunya Adalah : {waktu}")
 
 while True :
   print("===== Perhitungan Kecepatan,Jarak Dan Waktu =====")
